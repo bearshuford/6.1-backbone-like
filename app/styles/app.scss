@@ -19,15 +19,16 @@ body{
 
    position: relative;
    display: inline-block;
-
-    margin-top: 120px;
-   background-color: #01FF70;
-    text-align: center;
-
    padding: 10px 14px;
-
-
+   margin-top: 120px;
+   background-color: #01FF70;
    cursor: pointer;
+
+   -webkit-user-select: none;  /* Chrome all / Safari all */
+   -moz-user-select: none;     /* Firefox all */
+   -ms-user-select: none;      /* IE 10+ */
+   user-select: none;
+
 
    &:active{
       top: 2px;
